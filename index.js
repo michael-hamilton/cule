@@ -9,6 +9,10 @@ function createWindow () {
         }
     });
 
+    if(process.env.NODE_ENV === 'development') {
+        win.webContents.openDevTools();
+    }
+
     win.loadURL("http://localhost:1234");
 }
 

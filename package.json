@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "NODE_ENV=development && parcel app/app.html --cache-dir app/.cache --out-dir app/dist & wait-on http://localhost:1234 && electron index.js"
+    "dev": "NODE_ENV=development && parcel app/app.html --cache-dir output/.cache --out-dir output/dist & wait-on http://localhost:1234 && electron index.js"
   },
   "author": "Michael Hamilton <michaelhamilton626@gmail.com>",
   "build": {
